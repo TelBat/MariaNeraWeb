@@ -1,0 +1,384 @@
+/* 
+    ======================== ***** ============================= 
+      Template Name: Texter V2 – One Page Writer Portfolio Template
+      Template URI: https://www.designtocodes.com/wp-content/uploads/2022/11/Texter_One_Page_Portfolio_Template.jpg
+      Description: Texter V2 – One Page Writer Portfolio Template is built with a modern design and the latest web technologies.
+      Author: DesignToCodes
+      Author URI: https://www.designtocodes.com
+      Text Domain: Texter v2
+*/
+
+/* small phone responsive css */
+@media only screen and (min-width:0px) and (max-width:574px) {
+    body{
+        overflow-x: hidden;
+    }
+    section{
+        padding: 50px 0px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    h3{
+        font-size: 22px;
+    }
+    [class *="col-"] {
+        padding: 15px;
+    }
+    .d2c_title{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .d2c_multiple_bg_liner{
+        background-image: none;
+    }
+    .d2c_image_bg_gradient::after{
+        display: none;
+    }
+    .d2c_navbar .navbar-nav .nav-item .d2c_btn{
+        margin-top: 10px;
+    }
+
+    .d2c_hero{
+        background-image: linear-gradient(251.84deg, #FFFFFF 0%, #EBF4FC 126.56%);
+    }
+    .d2c_hero .d2c_hero_subtitle{
+        font-size: 22px;
+    }
+    .d2c_hero_title{
+        font-size: 45px;
+        margin: 7px 0px;
+    }
+
+    .d2c_services_card ul li{
+        font-size: 16px;
+    }
+
+    .d2c_support{
+        background: linear-gradient(255.98deg, rgba(235, 244, 252, 0.35) -40.68%, #EBF4FC 127.56%);
+        background-repeat: no-repeat;
+    }
+
+    .d2c_portfolio{
+        padding: 50px 15px;
+    }
+    .d2c_portfolio_content_wrapper{
+        height: 350px;
+    }
+
+    .d2c_achievement{
+        padding: 40px 0px;
+    }
+    .d2c_achievement_card .d2c_content{
+        padding: 10px 20px;
+    }
+    .d2c_achievement_card img{
+        display: none;
+    }
+
+    .d2c_testimonial{
+        background-image: none;
+        padding: 0px 0px 50px 0px;
+    }
+    .d2c_testimonial_wrapper{
+        background-image: none;
+    }
+    .d2c_ratings {
+        margin: 15px 0px;
+    }
+    .d2c_client_image{
+        width: 60px;
+        height: 60px;
+    }
+
+    .d2c_CTA{
+        padding: 60px 0px;
+    }
+
+    .d2c_company_logo_wrapper{
+        padding: 5px;
+    }
+    .d2c_company_logo ,.d2c_company_hover_logo{
+        width: 85%;
+    }
+
+    .d2c_footer{
+        padding: 50px 0px;
+    }
+    .d2c_footer .d2c_footer_logo{
+        margin-bottom: 20px;
+    }
+    .d2c_copyright p{
+        font-size: 14px;
+    }
+
+}
+
+/* big phone responsive css */
+@media only screen and (min-width:575px) and (max-width:767px) {
+    body{
+        overflow-x: hidden;
+    }
+    section{
+        padding: 50px 0px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    h3{
+        font-size: 22px;
+    }
+    [class *="col-"] {
+        padding: 15px;
+    }
+    .d2c_title{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .d2c_multiple_bg_liner{
+        background-image: none;
+    }
+    .d2c_image_bg_gradient::after{
+        display: none;
+    }
+    .d2c_navbar .navbar-nav .nav-item .d2c_btn{
+        margin-top: 10px;
+    }
+
+    .d2c_hero{
+        background-image: linear-gradient(251.84deg, #FFFFFF 0%, #EBF4FC 126.56%);
+    }
+    .d2c_hero .d2c_hero_subtitle{
+        font-size: 22px;
+    }
+    .d2c_hero_title{
+        font-size: 45px;
+        margin: 7px 0px;
+    }
+
+    .d2c_services_card ul li{
+        font-size: 16px;
+    }
+
+    .d2c_support{
+        background: linear-gradient(255.98deg, rgba(235, 244, 252, 0.35) -40.68%, #EBF4FC 127.56%);
+        background-repeat: no-repeat;
+    }
+
+    .d2c_portfolio{
+        padding: 50px 15px;
+    }
+    .d2c_portfolio_content_wrapper{
+        height: 350px;
+    }
+
+    .d2c_achievement{
+        padding: 40px 0px;
+    }
+    .d2c_achievement_card .d2c_content{
+        padding: 10px 20px;
+    }
+    .d2c_achievement_card img{
+        display: none;
+    }
+
+    .d2c_CTA{
+        padding: 60px 0px;
+    }
+
+    .d2c_testimonial{
+        background-image: none;
+        padding: 0px 0px 50px 0px;
+    }
+    .d2c_testimonial_wrapper{
+        background-image: none;
+    }
+    .d2c_ratings {
+        margin: 15px 0px;
+    }
+    .d2c_client_image{
+        width: 60px;
+        height: 60px;
+    }
+
+    .d2c_company_logo_wrapper{
+        padding: 5px;
+    }
+    .d2c_company_logo ,.d2c_company_hover_logo{
+        width: 70%;
+    }
+
+    .d2c_footer{
+        padding: 50px 0px;
+    }
+    .d2c_footer .d2c_footer_logo{
+        margin-bottom: 20px;
+    }
+    .d2c_copyright p{
+        font-size: 14px;
+    }
+   
+}
+
+/* tab responsive css */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    body{
+        overflow-x: hidden;
+    }
+    section{
+        padding: 70px 0px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .d2c_title{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .d2c_multiple_bg_liner{
+        background-image: none;
+    }
+    .d2c_mobile_view .navbar-toggler{
+        color: var(--default_color_one);
+    }
+
+    .d2c_hero{
+        background-image: linear-gradient(251.84deg, #FFFFFF 0%, #EBF4FC 126.56%);
+    }
+    .d2c_hero_content img {
+        margin-bottom: 0px;
+    }
+    .d2c_hero_title{
+        margin-bottom: 10px;
+    }
+
+    .d2c_services_card ul li::before{
+        width: 10px;
+        height: 10px;
+    }
+
+    .d2c_support {
+        background: linear-gradient(255.98deg, rgba(235, 244, 252, 0.35) -40.68%, #EBF4FC 127.56%);
+        background-repeat: no-repeat;
+    }
+
+    .d2c_portfolio{
+        padding: 70px 15px;
+    }
+    .d2c_portfolio_content_wrapper{
+        height: 350px;
+    }
+
+    .d2c_testimonial,.d2c_testimonial_wrapper{
+        background-image: none;
+    }
+    .d2c_client_image{
+        width: 55px;
+        height: 55px;
+    }
+    .d2c_testimonial .d2c_client_name{
+        font-size: 23px;
+    }
+
+    .d2c_company_logo_wrapper{
+        padding: 5px;
+    }
+
+    .d2c_footer{
+        padding: 50px 0px;
+    }
+    .d2c_footer .d2c_footer_logo{
+        margin-bottom: 20px;
+    }
+
+  
+    
+}
+
+/* small laptop responsive css */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    body{
+        overflow-x: hidden;
+    }
+    section{
+        padding: 80px 0px;
+    }
+    h1, h2, h3, h4, h5, h6{
+        font-weight: 600;
+    }
+    p,li{
+        font-size: 16px;
+    }
+    .d2c_title{
+        margin-bottom: 30px;
+    }
+
+    .d2c_hero{
+        background-image: linear-gradient(251.84deg, #FFFFFF 0%, #EBF4FC 126.56%);
+    }
+    .d2c_hero_title{
+        margin: 5px 0px;
+    }
+    .d2c_hero .d2c_btn {
+        margin-top: 5px;
+    }
+    .d2c_hero .d2c_hero_subtitle{
+        margin-bottom: 8px;
+    }
+
+    .d2c_company_logo_wrapper{
+        padding: 10px;
+    }
+
+    .d2c_services_card ul li::before{
+        width: 10px;
+        height: 10px;
+    }
+
+    .d2c_support{
+        background-position: left 94%,right 80px;
+    }
+
+    .d2c_portfolio_content_wrapper{
+        height: 330px;
+    }
+
+    .d2c_client_image{
+        width: 55px;
+        height: 55px;
+    }
+    .d2c_testimonial_wrapper{
+        background-image: none;
+    }
+
+    .d2c_company .d2c_title{
+        font-size: 32px;
+    }
+
+    .d2c_footer .d2c_footer_logo {
+        margin-bottom: 20px;
+    }
+    
+
+    
+}
+
+@media only screen and (min-width:1200px) and (max-width:1500px) {
+    
+    
+}
+/* 
+======================== ***** ============================= 
+T     Template Name: Texter V2 – One Page Writer Portfolio Template
+      Template URI: https://www.designtocodes.com/wp-content/uploads/2022/11/Texter_One_Page_Portfolio_Template.jpg
+      Description: Texter V2 – One Page Writer Portfolio Template is built with a modern design and the latest web technologies.
+      Author: DesignToCodes
+      Author URI: https://www.designtocodes.com
+      Text Domain: Texter v2
+*/
